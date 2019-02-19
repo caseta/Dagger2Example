@@ -20,6 +20,8 @@ class MainActivity : AppCompatActivity() {
     override fun onStart() {
         super.onStart()
 
+        // Example Toast that will show if sharedPref is not null
+        // meaning it was injected successfully
         if (sharedPref != null) {
             Toast.makeText(this, "It worked. Shared Preferences is not null", Toast.LENGTH_LONG).show()
         }

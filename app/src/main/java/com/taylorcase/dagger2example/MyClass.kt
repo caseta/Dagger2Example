@@ -5,7 +5,4 @@ import javax.inject.Inject
 
 class MyClass @Inject constructor(val context: Context) {
 
-    fun isContextNull() : Boolean {
-        return context != null
-    }
 }
